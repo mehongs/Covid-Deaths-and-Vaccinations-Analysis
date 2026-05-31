@@ -1,3 +1,7 @@
+/*
+	Creating Queries for COVID analysis
+*/
+
 -- Total Cases vs Total Deaths
 -- Shows the likelihood of dying if you contract covid in the U.S.
 SELECT location, date, total_cases, total_deaths, 
